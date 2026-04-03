@@ -1,0 +1,22 @@
+name: Support Question
+description: Ask a question about usage or troubleshooting
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help using a PyAutoLabs package? Ask here.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe what you're trying to do and where you're stuck.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any relevant code, configuration, or links to documentation you've already tried.
+    validations:
+      required: false
