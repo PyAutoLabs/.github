@@ -6,7 +6,7 @@ PyAutoLabs is two things: a suite of Python libraries for Bayesian model-fitting
 
 ## PyAutoScientist
 
-[**PyAutoScientist**](https://pyautoscientist.readthedocs.io) is a working reference implementation of an AI-agent development organism: five repositories that together run a multi-repo software project end-to-end. It is not a framework you install — it is the live system that develops everything below, documented so you can fork it and run your own.
+[**PyAutoScientist**](https://pyautoscientist.readthedocs.io) is a working reference implementation of an AI-agent development organism: a set of repositories that together run a multi-repo software project end-to-end. It is not a framework you install — it is the live system that develops everything below, documented so you can fork it and run your own.
 
 | Organ | Repo | Role |
 |---|---|---|
@@ -15,6 +15,7 @@ PyAutoLabs is two things: a suite of Python libraries for Bayesian model-fitting
 | Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
 | Hands | [**PyAutoBuild**](https://github.com/PyAutoLabs/PyAutoBuild) | The executor that packages, tags and releases the libraries to PyPI, nightly. |
 | Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
+| Nerves | [**PyAutoConf**](https://github.com/PyAutoLabs/PyAutoConf) | The configuration and serialization layer (`autoconf`) connecting the organism's conventions to every library. |
 
 ## The science stack
 
@@ -27,7 +28,7 @@ The software the organism builds — used by researchers worldwide for reproduci
 | [**PyAutoLens**](https://github.com/PyAutoLabs/PyAutoLens) | Strong gravitational lens modeling, from Hubble to Euclid and JWST. | `pip install autolens` |
 | [**PyAutoReduce**](https://github.com/PyAutoLabs/PyAutoReduce) | Reduces archival telescope imaging into modeling-ready datasets for the stack above. | — |
 
-Under the hood sit [**PyAutoArray**](https://github.com/PyAutoLabs/PyAutoArray) (data structures, grids and inversions) and [**PyAutoConf**](https://github.com/PyAutoLabs/PyAutoConf) (the shared configuration and serialization layer).
+Under the hood sits [**PyAutoArray**](https://github.com/PyAutoLabs/PyAutoArray) (data structures, grids and inversions).
 
 Each library has a companion workspace of examples and tutorials — start with [autolens_workspace](https://github.com/PyAutoLabs/autolens_workspace) — or point an AI assistant (Claude, ChatGPT) at [autolens_assistant](https://github.com/PyAutoLabs/autolens_assistant) and just ask.
 
