@@ -1,29 +1,37 @@
 # PyAutoLabs
 
-**Open-source scientific software for automated astronomical data analysis.**
+**Open-source astronomy software, developed by an AI scientist.**
 
-PyAutoLabs develops and maintains a suite of interconnected Python libraries for Bayesian inference, galaxy morphology modeling, and strong gravitational lensing. Our tools are used by researchers worldwide to model complex astrophysical systems with reproducible, automated pipelines.
+PyAutoLabs is two things: a suite of Python libraries for Bayesian model-fitting, galaxy morphology and strong gravitational lensing — and **PyAutoScientist**, the AI-agent "organism" that plans, implements, tests and releases that software every day, with a human checkpointing the judgment calls.
 
----
+## PyAutoScientist
 
-## Core Libraries
+[**PyAutoScientist**](https://pyautoscientist.readthedocs.io) is a working reference implementation of an AI-agent development organism: five repositories that together run a multi-repo software project end-to-end. It is not a framework you install — it is the live system that develops everything below, documented so you can fork it and run your own.
 
-| Package | Description | Install |
+| Organ | Repo | Role |
 |---|---|---|
-| [**PyAutoFit**](https://github.com/rhayes-ceu/PyAutoFit) | Probabilistic programming & model fitting | `pip install autofit` |
-| [**PyAutoArray**](https://github.com/PyAutoLabs/PyAutoArray) | Array, grid & data structure manipulation | `pip install autoarray` |
-| [**PyAutoGalaxy**](https://github.com/PyAutoLabs/PyAutoGalaxy) | Multi-wavelength galaxy structure & morphology | `pip install autogalaxy` |
-| [**PyAutoLens**](https://github.com/PyAutoLabs/PyAutoLens) | Strong gravitational lens modeling | `pip install autolens` |
+| Mind | [**PyAutoMind**](https://github.com/PyAutoLabs/PyAutoMind) | Every piece of work starts here as a plain-English markdown file saying *what* to do. |
+| Brain | [**PyAutoBrain**](https://github.com/PyAutoLabs/PyAutoBrain) | The reasoning layer that decides *how* — classifying, planning and routing each task through specialist agents. |
+| Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
+| Hands | [**PyAutoBuild**](https://github.com/PyAutoLabs/PyAutoBuild) | The executor that packages, tags and releases the libraries to PyPI, nightly. |
+| Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
 
-## Workspaces (Examples & Tutorials)
+## The science stack
 
-Each core library has a companion workspace with example scripts, configuration files, and datasets:
+The software the organism builds — used by researchers worldwide for reproducible, automated astronomical data analysis:
 
-- [autolens_workspace](https://github.com/PyAutoLabs/autolens_workspace) -- PyAutoLens examples, tutorials & datasets
-- [autofit_workspace](https://github.com/PyAutoLabs/autofit_workspace) -- PyAutoFit examples & HowToFit lectures
-- [autogalaxy_workspace](https://github.com/PyAutoLabs/autogalaxy_workspace) -- PyAutoGalaxy examples & tutorials
+| Package | Role | Install |
+|---|---|---|
+| [**PyAutoFit**](https://github.com/PyAutoLabs/PyAutoFit) | Probabilistic programming: model composition, non-linear search and Bayesian inference. | `pip install autofit` |
+| [**PyAutoGalaxy**](https://github.com/PyAutoLabs/PyAutoGalaxy) | Multi-wavelength modeling of galaxy light, mass and morphology. | `pip install autogalaxy` |
+| [**PyAutoLens**](https://github.com/PyAutoLabs/PyAutoLens) | Strong gravitational lens modeling, from Hubble to Euclid and JWST. | `pip install autolens` |
+| [**PyAutoReduce**](https://github.com/PyAutoLabs/PyAutoReduce) | Reduces archival telescope imaging into modeling-ready datasets for the stack above. | — |
 
-## Getting Started
+Under the hood sit [**PyAutoArray**](https://github.com/PyAutoLabs/PyAutoArray) (data structures, grids and inversions) and [**PyAutoConf**](https://github.com/PyAutoLabs/PyAutoConf) (the shared configuration and serialization layer).
+
+Each library has a companion workspace of examples and tutorials — start with [autolens_workspace](https://github.com/PyAutoLabs/autolens_workspace) — or point an AI assistant (Claude, ChatGPT) at [autolens_assistant](https://github.com/PyAutoLabs/autolens_assistant) and just ask.
+
+## Getting started
 
 ```bash
 pip install autolens
@@ -32,11 +40,7 @@ cd autolens_workspace
 python welcome.py
 ```
 
-Check out the [PyAutoLens documentation](https://pyautolens.readthedocs.io/) for comprehensive guides, API references, and scientific background.
-
-## Contributing
-
-We welcome contributions from the community! See our [Contributing Guidelines](https://github.com/PyAutoLabs/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/PyAutoLabs/.github/blob/main/CODE_OF_CONDUCT.md).
+Documentation for every project is collected at [**pyautolabs.github.io**](https://pyautolabs.github.io).
 
 ## Citation
 
