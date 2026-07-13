@@ -6,7 +6,7 @@ You describe what you want in plain English; an organism of AI agents plans, bui
 
 ## PyAutoScientist
 
-[**PyAutoScientist**](https://pyautoscientist.readthedocs.io) is a working reference implementation of a human-led AI development organism: a set of repositories through which plain-English intent becomes tested, released software, with a human directing the work and checkpointing every decision that matters. It is not a framework you install — it is the live system that develops everything below, documented so you can fork it and lead your own.
+[**PyAutoScientist**](https://github.com/PyAutoLabs/PyAutoScientist) is a working reference implementation of a human-led AI development organism: a set of repositories through which plain-English intent becomes tested, released software, with a human directing the work and checkpointing every decision that matters. It is not a framework you install — it is the live system that develops everything below, documented so you can fork it and lead your own. Read the [docs](https://pyautoscientist.readthedocs.io).
 
 | Organ | Repo | Role |
 |---|---|---|
