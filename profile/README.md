@@ -15,6 +15,7 @@ You describe what you want in plain English; an organism of AI agents plans, bui
 | Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
 | Hands | [**PyAutoBuild**](https://github.com/PyAutoLabs/PyAutoBuild) | The executor that packages, tags and releases the libraries to PyPI, nightly. |
 | Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
+| Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | The storage mirror of Memory — holds *condemned* material (stale branches, dead code) as recoverable git refs, then voids it on a sweep. |
 | Nerves | [**PyAutoConf**](https://github.com/PyAutoLabs/PyAutoConf) | The configuration and serialization layer (`autoconf`) connecting the organism's conventions to every library. |
 
 The software the organism develops is organised as three families, each a library plus the repos a working scientist needs around it.
