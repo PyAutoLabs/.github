@@ -11,13 +11,13 @@ You describe what you want in plain English; an organism of AI agents plans, bui
 <!-- repos_sync:organs:begin -->
 | Organ | Repo | Role |
 |---|---|---|
-| Mind | [**PyAutoMind**](https://github.com/PyAutoLabs/PyAutoMind) | Where you lead — every piece of work starts here as a plain-English markdown file saying *what* to do. |
-| Brain | [**PyAutoBrain**](https://github.com/PyAutoLabs/PyAutoBrain) | The reasoning layer that works out *how* — classifying, planning and routing each task through specialist agents. |
-| Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | The executor that packages, tags and releases the libraries to PyPI, nightly. |
-| Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
-| Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
-| Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | The storage mirror of Memory — holds *condemned* material (stale branches, dead code) as recoverable git refs, then voids it on a sweep. |
-| Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | The configuration and serialization layer (`autonerves`) connecting the organism's conventions to every library. |
+| Mind | [**PyAutoMind**](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent: every piece of work begins as a plain-English description of *what* should change and is tracked from the initial idea to its completed implementation. |
+| Brain | [**PyAutoBrain**](https://github.com/PyAutoLabs/PyAutoBrain) | Works out *how*: classifies, plans and routes work through specialist reasoning and coding agents. |
+| Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
+| Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | Monitors repository health and supplies the authoritative GREEN/YELLOW/RED release-readiness verdict. |
+| Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through cross-linked literature wikis, concepts and verifiable citations. |
+| Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
+| Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 <!-- repos_sync:organs:end -->
 
 The software the organism develops is organised as three families, each a library plus the repos a working scientist needs around it.
