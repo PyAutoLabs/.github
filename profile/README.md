@@ -58,8 +58,7 @@ Multi-wavelength modeling of galaxy light, mass and morphology (`pip install aut
 | [autogalaxy_workspace](https://github.com/PyAutoLabs/autogalaxy_workspace) | Where the galaxy scientist works — example scripts, pipelines and datasets. |
 | [HowToGalaxy](https://github.com/PyAutoLabs/HowToGalaxy) | The classroom — narrative lectures teaching galaxy modeling from first principles. |
 | [autogalaxy_workspace_test](https://github.com/PyAutoLabs/autogalaxy_workspace_test) | The referee — regression checks that every result still reproduces. |
-
-*(An autogalaxy_assistant is on the way.)*
+| [autogalaxy_assistant](https://github.com/PyAutoLabs/autogalaxy_assistant) | The AI research assistant — point Claude or ChatGPT at it and ask. |
 
 Under the hood sit [**PyAutoArray**](https://github.com/PyAutoLabs/PyAutoArray) (data structures, grids and inversions) and [**PyAutoReduce**](https://github.com/PyAutoLabs/PyAutoReduce) (reducing archival telescope imaging into modeling-ready datasets).
 
