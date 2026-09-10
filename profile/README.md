@@ -48,6 +48,7 @@ Strong gravitational lens modeling, from Hubble to Euclid and JWST (`pip install
 | [autolens_workspace_test](https://github.com/PyAutoLabs/autolens_workspace_test) | The referee — regression checks that every result still reproduces. |
 | [autolens_workspace_developer](https://github.com/PyAutoLabs/autolens_workspace_developer) | The back-room workbench — developer scripts and experiments. |
 | [autolens_profiling](https://github.com/PyAutoLabs/autolens_profiling) | The stopwatch — JAX likelihood performance runs and results. |
+| [autolens_inference](https://github.com/PyAutoLabs/autolens_inference) | The proving ground — which searches find the right lens model fastest, on CPU and A100. |
 
 ## PyAutoGalaxy
 
