@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question or get help
+    url: https://github.com/orgs/PyAutoLabs/discussions/categories/q-a
+    about: Get help with PyAuto code, usage, troubleshooting, or scientific analysis.
+  - name: Share an idea
+    url: https://github.com/orgs/PyAutoLabs/discussions/categories/ideas
+    about: Suggest a feature or share an early idea with the PyAutoLabs community.
+  - name: Make a proposal
+    url: https://github.com/orgs/PyAutoLabs/discussions/categories/proposals
+    about: Develop a concrete proposal with the community before it becomes tracked development work.
