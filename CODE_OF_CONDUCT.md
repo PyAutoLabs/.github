@@ -51,7 +51,7 @@ when an individual is officially representing PyAutoLabs in public spaces.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported privately to James Nightingale at
-[james.w.nightingale@durham.ac.uk](mailto:james.w.nightingale@durham.ac.uk).
+[James.Nightingale@newcastle.ac.uk](mailto:James.Nightingale@newcastle.ac.uk).
 All complaints will be reviewed and investigated promptly, fairly, and as
 confidentially as possible. Community leaders will respect the privacy and
 security of anyone who reports an incident.
