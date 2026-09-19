@@ -33,7 +33,7 @@ Use the affected repository's issue tracker for confirmed reproducible defects, 
 - expected versus actual behaviour;
 - operating system, Python version, and relevant package versions.
 
-If you are unsure whether it is a bug, start in Bugs & Errors. Never post secrets, private data, or collaborator-controlled material publicly. For security-sensitive reports, follow the affected repository's security policy instead of opening a public discussion.
+If you are unsure whether it is a bug, start in Bugs & Errors. Never post secrets, private data, or collaborator-controlled material publicly. For security-sensitive reports, follow the affected repository's security policy instead of opening a public discussion. If no private reporting route is listed, email James Nightingale at [james.w.nightingale@durham.ac.uk](mailto:james.w.nightingale@durham.ac.uk) to arrange one; do not include sensitive details in the initial message.
 
 ## Submit a change
 

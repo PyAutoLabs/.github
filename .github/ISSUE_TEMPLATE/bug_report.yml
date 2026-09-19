@@ -1,11 +1,13 @@
 name: Bug Report
-description: Report a bug or unexpected behavior
+description: Report a reproducible bug in this repository
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a bug! Please fill in the details below.
+        Thanks for reporting a reproducible bug! Please fill in the details below.
+        If you are still investigating an error or need help, start in
+        [PyAutoLabs Bugs & Errors](https://github.com/orgs/PyAutoLabs/discussions/categories/bugs-errors).
   - type: textarea
     id: description
     attributes:

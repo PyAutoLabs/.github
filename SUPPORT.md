@@ -14,6 +14,6 @@ invitation.
 
 Include the package/repository, versions, a minimal example, traceback, and expected versus actual behaviour where relevant. Share only information you have permission to make public.
 
-Confirmed reproducible defects and agreed implementation work belong in the affected repository's issues, linked to the originating discussion. Security-sensitive reports should follow that repository's security policy, not a public discussion.
+Confirmed reproducible defects and agreed implementation work belong in the affected repository's issues, linked to the originating discussion. Security-sensitive reports should follow that repository's security policy, not a public discussion. If no private reporting route is listed, email James Nightingale at [james.w.nightingale@durham.ac.uk](mailto:james.w.nightingale@durham.ac.uk) to arrange one, without including sensitive details in the initial message.
 
 See the [contribution guide](https://github.com/PyAutoLabs/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/PyAutoLabs/.github/blob/main/CODE_OF_CONDUCT.md). PyAutoScientist and AI tools are optional; ordinary questions and non-AI contributions are equally welcome.
