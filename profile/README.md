@@ -1,27 +1,21 @@
 # PyAutoLabs
 
-**An agentic AI ecosystem for human-led, natural-language software development.**
+**Open-source software for Bayesian inference, galaxy morphology and strong gravitational lensing.**
 
-You describe what you want in plain English; an organism of AI agents plans, builds, tests and releases it — with you making every judgment call. PyAutoLabs is where that ecosystem, **PyAutoScientist**, develops open-source astronomy software for Bayesian model-fitting, galaxy morphology and strong gravitational lensing, every day.
+PyAutoLabs develops scientific libraries, example workspaces and tutorial courses
+for model fitting and astronomy, from general-purpose probabilistic programming
+to galaxy structure and strong-lens modeling.
 
-## PyAutoScientist
+## Community
 
-[**PyAutoScientist**](https://github.com/PyAutoLabs/PyAutoScientist) is a working reference implementation of a human-led AI development organism: a set of repositories through which plain-English intent becomes tested, released software, with a human directing the work and checkpointing every decision that matters. It is not a framework you install — it is the live system that develops everything below, documented so you can fork it and lead your own. Read the [docs](https://pyautoscientist.readthedocs.io).
+Questions, help with your code or your analysis, and ideas: the
+[PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions).
+Bug reports with a reproducer (a snippet, the traceback, your versions):
+an issue on the library's tracker. The Slack is for collaborators, by
+invitation.
 
-<!-- repos_sync:organs:begin -->
-| Organ | Repo | Role |
-|---|---|---|
-| Brain | [**PyAutoBrain**](https://github.com/PyAutoLabs/PyAutoBrain) | Works out *how*: classifies, plans and routes work through specialist reasoning and coding agents. |
-| Mind | [**PyAutoMind**](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent: every piece of work begins as a plain-English description of *what* should change and is tracked from the initial idea to its completed implementation. |
-| Cortex | [**PyAutoCortex**](https://github.com/PyAutoLabs/PyAutoCortex) | Holds the science body map and one ledger per science project — the runs on the cluster and a dated log of what was set off, seen and learned — so a project is picked up where it was left, apart from software development. |
-| Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through cross-linked literature wikis, concepts and verifiable citations. |
-| Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | Monitors repository health and supplies the authoritative GREEN/YELLOW/RED release-readiness verdict. |
-| Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
-| Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
-| Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
-<!-- repos_sync:organs:end -->
-
-The software the organism develops is organised as three families, each a library plus the repos a working scientist needs around it.
+The software is organised as three families, each a library plus the repositories
+a working scientist needs around it.
 
 ## PyAutoFit
 
@@ -84,3 +78,24 @@ If you use PyAutoLabs software in your research, please cite:
 ## License
 
 All PyAutoLabs packages are released under the [MIT License](https://opensource.org/licenses/MIT).
+
+## PyAutoScientist
+
+[**PyAutoScientist**](https://github.com/PyAutoLabs/PyAutoScientist) is
+Jammy2211's experimental, vibe-coded AI software development ecosystem. Visitors
+are welcome to explore the [documentation](https://pyautoscientist.readthedocs.io)
+and the repositories below, but contributors are not currently expected to use
+it.
+
+<!-- repos_sync:organs:begin -->
+| Organ | Repo | Role |
+|---|---|---|
+| Brain | [**PyAutoBrain**](https://github.com/PyAutoLabs/PyAutoBrain) | Works out *how*: classifies, plans and routes work through specialist reasoning and coding agents. |
+| Mind | [**PyAutoMind**](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent: every piece of work begins as a plain-English description of *what* should change and is tracked from the initial idea to its completed implementation. |
+| Cortex | [**PyAutoCortex**](https://github.com/PyAutoLabs/PyAutoCortex) | Holds the science body map and one ledger per science project — the runs on the cluster and a dated log of what was set off, seen and learned — so a project is picked up where it was left, apart from software development. |
+| Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through cross-linked literature wikis, concepts and verifiable citations. |
+| Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | Monitors repository health and supplies the authoritative GREEN/YELLOW/RED release-readiness verdict. |
+| Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
+| Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
+| Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
+<!-- repos_sync:organs:end -->
