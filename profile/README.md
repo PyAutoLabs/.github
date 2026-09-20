@@ -74,6 +74,10 @@ Documentation for every project is collected at [**pyautolabs.github.io**](https
 If you use PyAutoLabs software in your research, please cite:
 
 > Nightingale, J. W. et al. (2021). *PyAutoLens: Open-Source Strong Gravitational Lensing.* JOSS, 6(58), 2825.
+>
+> Nightingale, J. W. et al. (2021). *PyAutoFit: A Classy Probabilistic Programming Language for Model Composition and Fitting.* JOSS, 6(58), 2550.
+>
+> Nightingale, J. W. et al. (2023). *PyAutoGalaxy: Open-Source Multiwavelength Galaxy Structure & Morphology.* JOSS, 8(81), 4475.
 
 ## License
 
@@ -85,7 +89,7 @@ All PyAutoLabs packages are released under the [MIT License](https://opensource.
 Jammy2211's experimental, vibe-coded AI software development ecosystem. Visitors
 are welcome to explore the [documentation](https://pyautoscientist.readthedocs.io)
 and the repositories below, but contributors are not currently expected to use
-it.
+it. Jammy2211 hopes to make it software that others can easily use one day.
 
 <!-- repos_sync:organs:begin -->
 | Organ | Repo | Role |
