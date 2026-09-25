@@ -102,4 +102,5 @@ it. Jammy2211 hopes to make it software that others can easily use one day.
 | Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
 | Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 | Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
+| Eyes | [**PyAutoEyes**](https://github.com/PyAutoLabs/PyAutoEyes) | Holds the rendered gallery of every figure each PyAuto library draws, on realistic data, so what the software shows can be seen, judged and improved in one place. |
 <!-- repos_sync:organs:end -->
