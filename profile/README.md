@@ -101,6 +101,7 @@ it. Jammy2211 hopes to make it software that others can easily use one day.
 | Eyes | [**PyAutoEyes**](https://github.com/PyAutoLabs/PyAutoEyes) | The dashboard of every figure the PyAuto libraries draw: it gathers each library's rendered gallery on realistic data into one board, so what the software shows can be seen, judged and improved in one place. |
 | Heart | [**PyAutoHeart**](https://github.com/PyAutoLabs/PyAutoHeart) | Monitors repository health and supplies the authoritative GREEN/YELLOW/RED release-readiness verdict. |
 | Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
+| Pulse | [**PyAutoPulse**](https://github.com/PyAutoLabs/PyAutoPulse) | The dashboard of how fast the PyAuto libraries run: it gathers each library's profiling results into one board, so run times and how they change across releases can be seen in one place. |
 | Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 | Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
 <!-- repos_sync:organs:end -->
