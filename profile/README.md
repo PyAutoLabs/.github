@@ -28,6 +28,8 @@ Probabilistic programming: model composition, non-linear search and Bayesian inf
 | [HowToFit](https://github.com/PyAutoLabs/HowToFit) | The classroom — narrative lectures teaching model fitting from first principles. |
 | [autofit_assistant](https://github.com/PyAutoLabs/autofit_assistant) | The AI research assistant — point Claude or ChatGPT at it and ask. |
 | [autofit_workspace_test](https://github.com/PyAutoLabs/autofit_workspace_test) | The referee — regression checks that every result still reproduces. |
+| [autofit_profiling](https://github.com/PyAutoLabs/autofit_profiling) | The stopwatch — PyAutoFit profiling runs and results. |
+| [autofit_inference](https://github.com/PyAutoLabs/autofit_inference) | The proving ground — which PyAutoFit searches find the right answer fastest on toy likelihoods. |
 
 ## PyAutoLens
 
