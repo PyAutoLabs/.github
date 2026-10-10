@@ -97,6 +97,7 @@ it. Jammy2211 hopes to make it software that others can easily use one day.
 | Organ | Repo | Role |
 |---|---|---|
 | Brain | [**PyAutoBrain**](https://github.com/PyAutoLabs/PyAutoBrain) | Works out *how*: classifies, plans and routes work through specialist reasoning and coding agents. |
+| Broca | [**PyAutoBroca**](https://github.com/PyAutoLabs/PyAutoBroca) | Tracks assistant evaluation and upkeep evidence. |
 | Mind | [**PyAutoMind**](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent: every piece of work begins as a plain-English description of *what* should change and is tracked from the initial idea to its completed implementation. |
 | Cortex | [**PyAutoCortex**](https://github.com/PyAutoLabs/PyAutoCortex) | Holds the science body map and one ledger per science project — the runs on the cluster and a dated log of what was set off, seen and learned — so a project is picked up where it was left, apart from software development. |
 | Memory | [**PyAutoMemory**](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through cross-linked literature wikis, concepts and verifiable citations. |
@@ -106,6 +107,7 @@ it. Jammy2211 hopes to make it software that others can easily use one day.
 | Hands | [**PyAutoHands**](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
 | Pulse | [**PyAutoPulse**](https://github.com/PyAutoLabs/PyAutoPulse) | The dashboard of how fast the PyAuto libraries run: it gathers each library's profiling results into one board, so run times and how they change across releases can be seen in one place. |
 | Insight | [**PyAutoInsight**](https://github.com/PyAutoLabs/PyAutoInsight) | Coordinates inference campaigns and their tasks in one place, showing results, diagnostics, provenance and missing evidence across projects while keeping scientific conclusions with the human and Cortex. |
+| DNA | [**PyAutoDNA**](https://github.com/PyAutoLabs/PyAutoDNA) | Records software-stack specifications, tracks what local, RAL and CI environments run, and coordinates validated upgrades with compatibility evidence and rollback history. |
 | Nerves | [**PyAutoNerves**](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 | Gut | [**PyAutoGut**](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
 <!-- repos_sync:organs:end -->
