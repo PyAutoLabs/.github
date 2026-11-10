@@ -9,8 +9,8 @@ If you arrived from PyAutoFit, PyAutoGalaxy, PyAutoLens, PyAutoArray, or another
 Questions, help with your code or your analysis, and ideas: the
 [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions).
 Bug reports with a reproducer (a snippet, the traceback, your versions):
-an issue on the library's tracker. The Slack is for collaborators, by
-invitation.
+an issue on the library's tracker. Everyone is welcome to
+[join the PyAutoLabs Slack](https://join.slack.com/t/pyautolens/shared_invite/zt-2cufp4eyf-fXfgMxRGuvg~bMrI3uOAxg) for community conversation.
 
 The shared discussion categories are:
 
